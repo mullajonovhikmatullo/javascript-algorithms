@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="294582c0-267c-454e-85c8-3a42143521d8" name="Changes" comment="Initialize project with basic input-output JavaScript exercises and initial HTML structure">
+    <list default="true" id="294582c0-267c-454e-85c8-3a42143521d8" name="Changes" comment="Initialize additional input-output JavaScript exercises in `index.js` and update workspace settings">
+      <change afterPath="$PROJECT_DIR$/javascripts/integer/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javascripts/input-output/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/javascripts/input-output/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,7 +70,7 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "Runtime.Targets.Configurable",
+    "settings.editor.selected.configurable": "editor.preferences.inline.completion",
     "to.speed.mode.migration.done": "true",
     "vue.rearranger.settings.migration": "true"
   }
@@ -90,7 +91,7 @@
       <updated>1771615325705</updated>
       <workItem from="1771615326972" duration="449000" />
       <workItem from="1771615780248" duration="2933000" />
-      <workItem from="1771662894264" duration="7372000" />
+      <workItem from="1771662894264" duration="13900000" />
     </task>
     <task id="LOCAL-00001" summary="Initialize project with basic input-output JavaScript exercises and initial HTML structure">
       <option name="closed" value="true" />
@@ -100,14 +101,34 @@
       <option name="project" value="LOCAL" />
       <updated>1771618651247</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Initialize additional input-output JavaScript exercises in `index.js` and update workspace settings">
+      <option name="closed" value="true" />
+      <created>1771672388500</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1771672388500</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initialize project with basic input-output JavaScript exercises and initial HTML structure" />
-    <option name="LAST_COMMIT_MESSAGE" value="Initialize project with basic input-output JavaScript exercises and initial HTML structure" />
+    <MESSAGE value="Initialize additional input-output JavaScript exercises in `index.js` and update workspace settings" />
+    <option name="LAST_COMMIT_MESSAGE" value="Initialize additional input-output JavaScript exercises in `index.js` and update workspace settings" />
   </component>
 </project>
