@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="294582c0-267c-454e-85c8-3a42143521d8" name="Changes" comment="Initialize additional input-output JavaScript exercises in `index.js` and update workspace settings">
-      <change afterPath="$PROJECT_DIR$/javascripts/integer/index.js" afterDir="false" />
+    <list default="true" id="294582c0-267c-454e-85c8-3a42143521d8" name="Changes" comment="Integer 1-30 solutions">
+      <change afterPath="$PROJECT_DIR$/javascripts/logical/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
@@ -15,7 +15,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="EmbeddingIndexingInfo">
-    <option name="cachedIndexableFilesCount" value="5" />
+    <option name="cachedIndexableFilesCount" value="6" />
     <option name="fileBasedEmbeddingIndicesEnabled" value="true" />
   </component>
   <component name="FileTemplateManagerImpl">
@@ -91,7 +91,7 @@
       <updated>1771615325705</updated>
       <workItem from="1771615326972" duration="449000" />
       <workItem from="1771615780248" duration="2933000" />
-      <workItem from="1771662894264" duration="13900000" />
+      <workItem from="1771662894264" duration="20844000" />
     </task>
     <task id="LOCAL-00001" summary="Initialize project with basic input-output JavaScript exercises and initial HTML structure">
       <option name="closed" value="true" />
@@ -109,7 +109,15 @@
       <option name="project" value="LOCAL" />
       <updated>1771672388500</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Integer 1-30 solutions">
+      <option name="closed" value="true" />
+      <created>1771679264289</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1771679264289</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -129,6 +137,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initialize project with basic input-output JavaScript exercises and initial HTML structure" />
     <MESSAGE value="Initialize additional input-output JavaScript exercises in `index.js` and update workspace settings" />
-    <option name="LAST_COMMIT_MESSAGE" value="Initialize additional input-output JavaScript exercises in `index.js` and update workspace settings" />
+    <MESSAGE value="Integer 1-30 solutions" />
+    <option name="LAST_COMMIT_MESSAGE" value="Integer 1-30 solutions" />
   </component>
 </project>
