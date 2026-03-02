@@ -4,15 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="294582c0-267c-454e-85c8-3a42143521d8" name="Changes" comment="Added switch case from 1 to 12 solutions.">
-      <change afterPath="$PROJECT_DIR$/javascripts/for-loop(1-40)/index.js" afterDir="false" />
+    <list default="true" id="294582c0-267c-454e-85c8-3a42143521d8" name="Changes" comment="Added switch case exercises 13-20 and initiated for-loop 1-40 solutions">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javascripts/boolean/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/javascripts/boolean(1-40)/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javascripts/if-else/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/javascripts/if-else(1-30)/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javascripts/input-output/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/javascripts/input-output(1-40)/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javascripts/integer/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/javascripts/integer(1-30)/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javascripts/switch-case/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/javascripts/switch-case(1-20)/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/javascripts/for-loop(1-40)/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/javascripts/for-loop(1-40)/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,7 +14,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="EmbeddingIndexingInfo">
-    <option name="cachedIndexableFilesCount" value="9" />
+    <option name="cachedIndexableFilesCount" value="10" />
     <option name="fileBasedEmbeddingIndicesEnabled" value="true" />
   </component>
   <component name="FileTemplateManagerImpl">
@@ -70,6 +64,7 @@
     &quot;git-widget-placeholder&quot;: &quot;main&quot;,
     &quot;javascript.preferred.runtime.type.id&quot;: &quot;node&quot;,
     &quot;junie.onboarding.icon.badge.shown&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/xikmatullo/Desktop/web-learning/javascript-algorithms&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -97,7 +92,10 @@
       <workItem from="1771615326972" duration="449000" />
       <workItem from="1771615780248" duration="2933000" />
       <workItem from="1771662894264" duration="36018000" />
-      <workItem from="1771856301701" duration="20900000" />
+      <workItem from="1771856301701" duration="22349000" />
+      <workItem from="1772279858058" duration="32000" />
+      <workItem from="1772387258468" duration="5705000" />
+      <workItem from="1772473777476" duration="4133000" />
     </task>
     <task id="LOCAL-00001" summary="Initialize project with basic input-output JavaScript exercises and initial HTML structure">
       <option name="closed" value="true" />
@@ -147,7 +145,15 @@
       <option name="project" value="LOCAL" />
       <updated>1771944918210</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Added switch case exercises 13-20 and initiated for-loop 1-40 solutions">
+      <option name="closed" value="true" />
+      <created>1772133317187</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1772133317187</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -171,6 +177,7 @@
     <MESSAGE value="Boolean 1-40: Solutions." />
     <MESSAGE value="- Added if else from 1 to 30th Solutions." />
     <MESSAGE value="Added switch case from 1 to 12 solutions." />
-    <option name="LAST_COMMIT_MESSAGE" value="Added switch case from 1 to 12 solutions." />
+    <MESSAGE value="Added switch case exercises 13-20 and initiated for-loop 1-40 solutions" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added switch case exercises 13-20 and initiated for-loop 1-40 solutions" />
   </component>
 </project>
