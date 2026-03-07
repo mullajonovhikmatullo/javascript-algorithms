@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="294582c0-267c-454e-85c8-3a42143521d8" name="Changes" comment="Added switch case exercises 13-20 and initiated for-loop 1-40 solutions">
+    <list default="true" id="294582c0-267c-454e-85c8-3a42143521d8" name="Changes" comment="Added solutions for for-loop exercises 14-40 and refined switch case exercises 13-20">
+      <change afterPath="$PROJECT_DIR$/javascripts/while-loop(1-30)/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javascripts/for-loop(1-40)/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/javascripts/for-loop(1-40)/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -95,7 +96,7 @@
       <workItem from="1771856301701" duration="22349000" />
       <workItem from="1772279858058" duration="32000" />
       <workItem from="1772387258468" duration="5705000" />
-      <workItem from="1772473777476" duration="4133000" />
+      <workItem from="1772473777476" duration="20491000" />
     </task>
     <task id="LOCAL-00001" summary="Initialize project with basic input-output JavaScript exercises and initial HTML structure">
       <option name="closed" value="true" />
@@ -153,7 +154,15 @@
       <option name="project" value="LOCAL" />
       <updated>1772133317187</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Added solutions for for-loop exercises 14-40 and refined switch case exercises 13-20">
+      <option name="closed" value="true" />
+      <created>1772477989476</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1772477989476</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -178,6 +187,7 @@
     <MESSAGE value="- Added if else from 1 to 30th Solutions." />
     <MESSAGE value="Added switch case from 1 to 12 solutions." />
     <MESSAGE value="Added switch case exercises 13-20 and initiated for-loop 1-40 solutions" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added switch case exercises 13-20 and initiated for-loop 1-40 solutions" />
+    <MESSAGE value="Added solutions for for-loop exercises 14-40 and refined switch case exercises 13-20" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added solutions for for-loop exercises 14-40 and refined switch case exercises 13-20" />
   </component>
 </project>
