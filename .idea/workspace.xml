@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="294582c0-267c-454e-85c8-3a42143521d8" name="Changes" comment="Added solutions for while-loop exercises 1-30 and updated HTML script references">
-      <change afterPath="$PROJECT_DIR$/javascripts/min-max(1-30)/index.js" afterDir="false" />
+    <list default="true" id="294582c0-267c-454e-85c8-3a42143521d8" name="Changes" comment="Added solutions for FunSimple exercises 1-11 and updated HTML script references">
+      <change afterPath="$PROJECT_DIR$/javascripts/fun-simple/index.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
@@ -15,13 +15,14 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="EmbeddingIndexingInfo">
-    <option name="cachedIndexableFilesCount" value="12" />
+    <option name="cachedIndexableFilesCount" value="13" />
     <option name="fileBasedEmbeddingIndicesEnabled" value="true" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="JavaScript File" />
+        <option value="TypeScript File" />
       </list>
     </option>
   </component>
@@ -44,6 +45,9 @@
     <commands />
     <urls />
   </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
   <component name="ProjectColorInfo">{
   &quot;customColor&quot;: &quot;&quot;,
   &quot;associatedIndex&quot;: 7
@@ -53,30 +57,31 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "Node.js.index.js.executor": "Debug",
-    "RunOnceActivity.MCP Project settings loaded": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
-    "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1": "true",
-    "git-widget-placeholder": "main",
-    "javascript.preferred.runtime.type.id": "node",
-    "junie.onboarding.icon.badge.shown": "true",
-    "last_opened_file_path": "/Users/xikmatullo/Desktop/web-learning/javascript-algorithms",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "editor.preferences.inline.completion",
-    "to.speed.mode.migration.done": "true",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;Node.js.index.js.executor&quot;: &quot;Debug&quot;,
+    &quot;RunOnceActivity.MCP Project settings loaded&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
+    &quot;com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;javascript.preferred.runtime.type.id&quot;: &quot;node&quot;,
+    &quot;junie.onboarding.icon.badge.shown&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/xikmatullo/Desktop/web-learning/javascript-algorithms&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.inline.completion&quot;,
+    &quot;to.speed.mode.migration.done&quot;: &quot;true&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;/Applications/WebStorm.app/Contents/plugins/javascript-plugin/jsLanguageServicesImpl/external&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -97,7 +102,8 @@
       <workItem from="1771856301701" duration="22349000" />
       <workItem from="1772279858058" duration="32000" />
       <workItem from="1772387258468" duration="5705000" />
-      <workItem from="1772473777476" duration="53262000" />
+      <workItem from="1772473777476" duration="53693000" />
+      <workItem from="1773077558434" duration="8300000" />
     </task>
     <task id="LOCAL-00001" summary="Initialize project with basic input-output JavaScript exercises and initial HTML structure">
       <option name="closed" value="true" />
@@ -171,11 +177,24 @@
       <option name="project" value="LOCAL" />
       <updated>1772911416498</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Added solutions for min-max exercises 1-30 and updated HTML script references">
+      <option name="closed" value="true" />
+      <created>1773068008507</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1773068008507</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+    <option name="exactExcludedFiles">
+      <list>
+        <option value="$PROJECT_DIR$/javascripts/fun-simple/index.js" />
+      </list>
+    </option>
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -198,6 +217,8 @@
     <MESSAGE value="Added switch case exercises 13-20 and initiated for-loop 1-40 solutions" />
     <MESSAGE value="Added solutions for for-loop exercises 14-40 and refined switch case exercises 13-20" />
     <MESSAGE value="Added solutions for while-loop exercises 1-30 and updated HTML script references" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added solutions for while-loop exercises 1-30 and updated HTML script references" />
+    <MESSAGE value="Added solutions for min-max exercises 1-30 and updated HTML script references" />
+    <MESSAGE value="Added solutions for FunSimple exercises 1-11 and updated HTML script references" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added solutions for FunSimple exercises 1-11 and updated HTML script references" />
   </component>
 </project>
