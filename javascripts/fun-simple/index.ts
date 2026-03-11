@@ -140,30 +140,215 @@
 // Swap(D, C);
 
 // ==================== FunSimple 11 ====================
-function Minmax (X: number, Y: number): void {
-    //
-    let c: number = X;
-    if (X > Y) {
-        X = Y;
-        Y = c;
-    }
-    console.log('X = ' + X, 'Y = ' + Y);
-}
-let a: number = 10, b: number = 11, c: number = 5, d: number = 19;
-Minmax(a, b);
-Minmax(c, d);
-Minmax(a, c);
-Minmax(b, d);
+// function Minmax (X: number, Y: number): void {
+//     //
+//     let c: number = X;
+//     if (X > Y) {
+//         X = Y;
+//         Y = c;
+//     }
+//     console.log('X = ' + X, 'Y = ' + Y);
+// }
+// let a: number = 10, b: number = 11, c: number = 5, d: number = 19;
+// Minmax(a, b);
+// Minmax(c, d);
+// Minmax(a, c);
+// Minmax(b, d);
 
 // ==================== FunSimple 12 ====================
+// function SortInc3(a: number, b: number, c: number): void {
+//     //
+//     let temp: number;
+//     if (a > b) {
+//         temp = a;
+//         a = b;
+//         b = temp;
+//     }
+//     if (a > c) {
+//         temp = a;
+//         a = c;
+//         c = temp;
+//     }
+//     if (b > c) {
+//         temp = b;
+//         b = c;
+//         c = temp;
+//     }
+//
+//     console.log(a, b, c);
+// }
+//
+// SortInc3(8, 5, 1);
+
 // ==================== FunSimple 13 ====================
+// function SortDec3(a: number, b: number, c: number): void {
+//     //
+//     let temp: number;
+//     if (a < b) {
+//         temp = a;
+//         a = b;
+//         b = temp;
+//     }
+//     if (a < c) {
+//         temp = a;
+//         a = c;
+//         c = temp;
+//     }
+//     if (b < c) {
+//         temp = b;
+//         b = c;
+//         c = temp;
+//     }
+//
+//     console.log(a, b, c);
+// }
+//
+// SortDec3(8, 9, 10);
+
 // ==================== FunSimple 14 ====================
+// function ShiftRight3 (A: number, B: number, C: number): void {
+//     let temp: number = C;
+//     C = B;
+//     B = A;
+//     A = temp;
+//     console.log(A, B, C);
+// }
+//
+// ShiftRight3(1, 2, 3);
+
 // ==================== FunSimple 15 ====================
+// function ShiftLeft3 (A: number, B: number, C: number): void {
+//     let temp: number = A;
+//     A = B;
+//     B = C;
+//     C = temp;
+//     console.log(A, B, C);
+// }
+//
+// ShiftLeft3(1, 2, 3);
+
 // ==================== FunSimple 16 ====================
+// function Ishora(son: number): number {
+//     if (son > 0) return 1;
+//     else if (son < 0) return -1;
+//     else return son;
+// }
+// let sum: number = Ishora(-19.2) + Ishora(0);
+// console.log(sum);
+
 // ==================== FunSimple 17 ====================
+// function quadraticEquation(A: number, B: number, C: number):void {
+//     let D:number = B * B - 4 * A * C;
+//     let X1:number = (-B + Math.sqrt(D)) / 2 * A;
+//     let X2:number = (-B - Math.sqrt(D)) / 2 * A;
+//
+//     let count: number = 0;
+//     if (A * X1 * X1 + B * X1 + C === 0) count ++;
+//     if (A * X2 * X2 + B * X2 + C === 0) count ++;
+//     console.log('Kvadrat tenglama ildizlari yechimi ' + count + ' ta: ');
+//     console.log(X1.toFixed(2), X2.toFixed(2));
+// }
+// quadraticEquation(1, 3, 1);
+
 // ==================== FunSimple 18 ====================
+// function circleFace (R: number): void {
+//     const PI = 3.1415;
+//     const result = PI * R * R;
+//     console.log(result);
+// }
+// circleFace(2);
+// circleFace(3);
+
 // ==================== FunSimple 19 ====================
+// function RingS(R1: number, R2: number): void {
+//     let result: string = Math.abs(Math.PI * (R1 * R1 - R2 * R2)).toFixed(2);
+//     console.log(result);
+// }
+// RingS(3, 5);
+
 // ==================== FunSimple 20 ====================
+// function TriangleP (a: number, b: number): void {
+//     let c: number = Math.sqrt(a * a + b * b);
+//     let p: number = a + b + c;
+//     console.log('Perimetr = ' + p);
+// }
+// TriangleP(3, 4);
+
 // ==================== FunSimple 21 ====================
+// function SumRange (A: number, B: number): number {
+//     //
+//     let sum = 0;
+//     if(A > B) return sum;
+//     A++;
+//     while (A < B) {
+//         sum += A;
+//         A++;
+//     }
+//     return sum;
+// }
+// let result: number = SumRange(50, 8);
+// console.log(result);
+
 // ==================== FunSimple 22 ====================
+// function Calc (A: number, B:number, Op:number) {
+//     //
+//     let sum: number;
+//     switch (Op) {
+//         case 1: sum = A - B; break;
+//         case 2: sum = A / B; break;
+//         case 3: sum = A * B; break;
+//         default: sum = A + B;
+//     }
+//     console.log(sum);
+// }
+// Calc(10, 5, 5);
+
 // ==================== FunSimple 23 ====================
+// function Quarter (X: number, Y: number): void {
+//     //
+//     if (X > 0 && Y > 0) {
+//         console.log('I - chorak');
+//     } else if (X < 0 && Y > 0) {
+//         console.log('II - chorak');
+//     } else if (X < 0 && Y < 0) {
+//         console.log('III - chorak');
+//     } else {
+//         console.log('IV - chorak');
+//     }
+// }
+// Quarter(1, 1);
+// Quarter(-1, 1);
+// Quarter(-1, -1);
+// Quarter(1, -1);
+
+// ==================== FunSimple 24 ====================
+// function Even(K: number): boolean {
+//     //
+//     let result: boolean;
+//     result = !(K % 2);
+//
+//     return result;
+// }
+//
+// console.log(Even(5));
+// console.log(Even(7));
+// console.log(Even(10));
+
+// ==================== FunSimple 25 ====================
+function IsSquare (K: number) {
+
+}
+
+// ==================== FunSimple 26 ====================
+
+
+// ==================== FunSimple 27 ====================
+
+
+// ==================== FunSimple 28 ====================
+
+
+// ==================== FunSimple 29 ====================
+
+
+// ==================== FunSimple 30 ====================
