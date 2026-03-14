@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="294582c0-267c-454e-85c8-3a42143521d8" name="Changes" comment="Added solutions for FunSimple exercises 1-11 and updated HTML script references">
+    <list default="true" id="294582c0-267c-454e-85c8-3a42143521d8" name="Changes" comment="Simple function answers from 1 to 24;">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/javascripts/fun-simple/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/javascripts/fun-simple/index.ts" afterDir="false" />
     </list>
@@ -102,7 +102,7 @@
       <workItem from="1772279858058" duration="32000" />
       <workItem from="1772387258468" duration="5705000" />
       <workItem from="1772473777476" duration="53693000" />
-      <workItem from="1773077558434" duration="16142000" />
+      <workItem from="1773077558434" duration="37449000" />
     </task>
     <task id="LOCAL-00001" summary="Initialize project with basic input-output JavaScript exercises and initial HTML structure">
       <option name="closed" value="true" />
@@ -192,7 +192,15 @@
       <option name="project" value="LOCAL" />
       <updated>1773086116133</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Simple function answers from 1 to 24;">
+      <option name="closed" value="true" />
+      <created>1773256391417</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1773256391417</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -226,6 +234,7 @@
     <MESSAGE value="Added solutions for while-loop exercises 1-30 and updated HTML script references" />
     <MESSAGE value="Added solutions for min-max exercises 1-30 and updated HTML script references" />
     <MESSAGE value="Added solutions for FunSimple exercises 1-11 and updated HTML script references" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added solutions for FunSimple exercises 1-11 and updated HTML script references" />
+    <MESSAGE value="Simple function answers from 1 to 24;" />
+    <option name="LAST_COMMIT_MESSAGE" value="Simple function answers from 1 to 24;" />
   </component>
 </project>
