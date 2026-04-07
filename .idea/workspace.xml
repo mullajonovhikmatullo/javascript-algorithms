@@ -4,9 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="294582c0-267c-454e-85c8-3a42143521d8" name="Changes" comment="Simple function answers from 1 to 24;">
+    <list default="true" id="294582c0-267c-454e-85c8-3a42143521d8" name="Changes" comment="Simple function answers from 24 to 58;">
+      <change afterPath="$PROJECT_DIR$/javascripts/array/index.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javascripts/fun-simple/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/javascripts/fun-simple/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/javascripts/fun-simple/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/javascripts/fun-simple(1-60)/index.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -14,7 +16,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="EmbeddingIndexingInfo">
-    <option name="cachedIndexableFilesCount" value="13" />
+    <option name="cachedIndexableFilesCount" value="15" />
     <option name="fileBasedEmbeddingIndicesEnabled" value="true" />
   </component>
   <component name="FileTemplateManagerImpl">
@@ -102,7 +104,8 @@
       <workItem from="1772279858058" duration="32000" />
       <workItem from="1772387258468" duration="5705000" />
       <workItem from="1772473777476" duration="53693000" />
-      <workItem from="1773077558434" duration="37449000" />
+      <workItem from="1773077558434" duration="48520000" />
+      <workItem from="1775496961838" duration="6863000" />
     </task>
     <task id="LOCAL-00001" summary="Initialize project with basic input-output JavaScript exercises and initial HTML structure">
       <option name="closed" value="true" />
@@ -200,7 +203,15 @@
       <option name="project" value="LOCAL" />
       <updated>1773256391417</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Simple function answers from 24 to 58;">
+      <option name="closed" value="true" />
+      <created>1773520594475</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1773520594475</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -208,6 +219,7 @@
     <option name="exactExcludedFiles">
       <list>
         <option value="$PROJECT_DIR$/javascripts/fun-simple/index.js" />
+        <option value="$PROJECT_DIR$/javascripts/array/index.js" />
       </list>
     </option>
   </component>
@@ -235,6 +247,7 @@
     <MESSAGE value="Added solutions for min-max exercises 1-30 and updated HTML script references" />
     <MESSAGE value="Added solutions for FunSimple exercises 1-11 and updated HTML script references" />
     <MESSAGE value="Simple function answers from 1 to 24;" />
-    <option name="LAST_COMMIT_MESSAGE" value="Simple function answers from 1 to 24;" />
+    <MESSAGE value="Simple function answers from 24 to 58;" />
+    <option name="LAST_COMMIT_MESSAGE" value="Simple function answers from 24 to 58;" />
   </component>
 </project>
